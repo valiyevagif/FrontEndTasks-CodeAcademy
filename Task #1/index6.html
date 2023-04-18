@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaqif Vəliyev | Task #1 | #6</title>
+</head>
+<body>
+    <h1 align="center">Loan Application</h1>
+    <p align="center" style="background-color:firebrick; color: white;"><b>Application information</b></p>
+
+    <form align="center">
+
+        <div>
+        <label for="firstname" >First Name: </label>
+        <input type="text" id="firstname" placeholder="John" required="required"> <br><br>
+        <label for="lastname" >Last Name: </label>
+        <input type="text" id="lastname" placeholder="Smith" required="required"> <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="john.smith@example.com" required="required"> <br><br>
+        <label for="socialsec">Social Security #:</label>
+        <input type="number" id="socialsec" placeholder="12-345-678" required="required"><br><br>
+        <label for="daytime">Daytime Phone:</label>
+        <input type="tel" id="daytime" placeholder="XXX-XX-XX" required="required"><br><br>
+        <label for="eveningtime">Evening Phone:</label>
+        <input type="tel" id="eveningtime" placeholder="XXX-XX-XX" required="required"><br><br>
+    </div>
+
+         <p align="center" style="background-color:firebrick; color: white;"><b>Loan information</b></p>
+         <div>
+            <label for="loantype">Loan Type: </label>
+            <select id="loantype" required="required">
+                <option value="Automobile">Automobile</option>
+                <option value="Apartment">Apartment</option>
+                <option value="Bussiness">Bussiness</option>
+            </select> <br><br>
+            <label for="amount">Loan Amount $:</label>
+            <input type="number" id="amount" placeholder="1500$" required="required"><br><br>
+                <label for="description">Description:</label>
+                <textarea name="description" id="description" cols="30" rows="3" placeholder="Application to finance the purchase of a Toyota Prius." required="required"></textarea><br><br>
+                <label for="submit">Submit Application: </label>
+                <button type="submit">Apply for Loan</button>
+                <button type="reset">Reset Fields</button>
+         </div>
+
+    </form>
+
+
+</body>
+</html>
