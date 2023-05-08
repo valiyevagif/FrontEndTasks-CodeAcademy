@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+header {
+    background-color: black;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+.header-items button {
+  padding: 20px 25px;
+  margin: 0px;
+}
+
+.header-items button:hover {
+  background-color: #f44336;
+  color:white;
+}
+
+i {
+    padding-left: 4px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav ul li:hover > a {
+    background-color: #ccc;
+    color:black;
+  }
+
+  .submenu {
+    color:black;
+  }
+  
+  nav ul li:hover .sub-nav {
+    display: block;
+  }
+  
+  .sub-nav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+  }
+  
+  .sub-nav li {
+    display: block;
+  }
+
+  .image {
+    background-image: url("https://www.w3schools.com/w3images/chicago.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.banner h2 {
+  text-align: center;
+  color:white;
+  padding-top: 850px;
+}
+
+.banner p {
+  text-align: center;
+  color:white;
+}
+
+.theband {
+  width: 40%;
+  margin: 0 auto;
+  padding: 80px 0px;
+}
+
+.theband h3 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.theband p {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 0px;
+  color: rgb(173, 173, 173)
+}
+
+#maintext {
+  text-align: justify;
+  color: black;
+  padding: 0px;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.band-names {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.band-container img {
+  margin-top: 10px;
+}
+
+.band-names {
+  margin-top: 80px;
+}
+
+.band-container img {
+  height: 150px;
+}
+
+.band-container h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.booking {
+  background-color: black;
+  padding: 80px 0px;
+}
+
+.booking-items {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.booking-items h4 {
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+#bookingp {
+  text-align: center;
+  color:white;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.table {
+  padding-top: 30px;
+}
+
+.table-template {
+  background: white;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+
+.table-template p{
+  color: #757575;
+}
+
+.status {
+  margin-left: 10px;
+  background-color: #f44336;
+  color:white;
+  padding: 2px 8px;
+}
+
+.number {
+  background-color: black;
+  color:white;
+  border-radius: 50%;
+  padding: 2px 7px;
+  position: absolute;
+  right: 20px;
+}
+
+.grid-section {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.grid-template {
+  background-color: white;
+}
+
+.grid-image {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  background-image: url("https://www.w3schools.com/w3images/newyork.jpg");
+}
+
+.grid-image:hover {
+  opacity: 50%;
+}
+
+.text-side {
+  padding: 20px;
+}
+
+.grid-template h5 {
+  font-size: 15px;
+  padding: 10px 0px;
+
+}
+
+#date {
+  color:rgb(173, 173, 173);
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.grid-template p {
+  font-size: 15px;
+}
+
+button {
+  border:none;
+  padding: 8px 16px;
+  background-color: black;
+  color:white;
+  font-size: 15px;
+  margin: 16px 0px 0px 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+  color:black;
+}
+
+.contact-section {
+  padding: 80px 0px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact-items h3 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+
+.contact-items p {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 20px;
+  color:rgb(173, 173, 173);
+}
+
+.contact-left p {
+  color:black;
+  font-style: normal;
+  text-align: left;
+  font-size:16px;
+}
+
+.contact-left i {
+  margin-right: 15px;
+}
+
+input {
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-left-and-right {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.contact-right {
+  float:right;
+}
+
+.contact-right button {
+float:right;
+}
+
+#messageinput {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lastbanner {
+  height: 100vh;
+  background-image: url("https://www.w3schools.com/w3images/map.jpg");
+  background-size: cover;
+}
+
+.footer-section {
+  padding: 70px 0px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.footer-section p {
+  text-align: center;
+}
+
+.footer-section p i {
+  color: rgb(132, 132, 132);
+  font-size: 24px;
+}
+
+.footer-section p i:hover {
+  color: #f1f1f1;
+}
+
+#powered {
+  margin-top: 10px;
+  color: rgb(132, 132, 132);
+}
