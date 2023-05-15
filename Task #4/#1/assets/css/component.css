@@ -1,29 +1,29 @@
-.btn {
-    display: inline-block;
-    background-color: #4a4a4b;
-    border: none;
-    padding: 20px 29px;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-
-    
-
-
+.container {
+    width: 60%;
+    margin: 0px auto;
 }
 
-.btn:hover::before {
+.btn-dark {
+    display: inline-block;
+    padding: 20px 29px;
+    background-color: #4a4a4b;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn-dark:hover::before {
     width: 100%;
     transition: 0.5s;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 
 }
 
-.btn::before {
+.btn-dark::before {
     content: "";
     height: 100%;
     width: 0%;
@@ -36,20 +36,17 @@
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
 
-
 .btn-red {
     display: inline-block;
+    padding: 20px 29px;
     background-color: #ff2020;
     border: none;
-    padding: 20px 29px;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
     font-size: 16px;
-    cursor: pointer;
+    font-weight: 600;
+    color:white;
     position: relative;
+    cursor: pointer;
     z-index: 1;
-    
 }
 
 .btn-red:hover::before {
@@ -71,4 +68,3 @@
     transition: 0.5s;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
-
