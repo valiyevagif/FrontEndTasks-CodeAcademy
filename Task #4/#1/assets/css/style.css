@@ -484,6 +484,10 @@ header {
 
 /*-------- Methods Section -------- */
 
+.methods {
+    background-color: white;
+}
+
 .methods .container {
     background-color: #ff2020;
     display: flex;
@@ -521,6 +525,7 @@ header {
 /*-------- Footer Section-------- */
 
 footer {
+    background-color: white;
     padding: 100px 0px;
 }
 
@@ -603,65 +608,77 @@ footer {
 
 /*-------- Responsibility Section-------- */
 
-/* Desktop Screen */
-
-@media screen and (min-width: 1024px) {
-
-  }
-  
-/* Tablet Screen */
-
-@media screen and (min-width: 768px) and (max-width: 1562px) {
-    header {
-
-    }
-
+@media screen and (max-width: 766px) {
     .container {
         width: 90%;
     }
 
-    .header-items {
+    .banner h1 {
+        font-size: 35px !important;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .banner-text-side {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 867px) {
+    .container {
         width: 90%;
+    }
+
+    .banner h1 {
+        font-size: 40px !important;
     }
 
     .banner {
         height: 50vh;
     }
 
-    .banner-container img {
+    .banner img {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 867px) and (max-width: 1177px) {
+    
+    .banner {
         height: 50vh;
     }
 
-    .banner-text-side {
-        width: 70%;
-    }
-
-    .banner-text-side h1 {
-        font-size: 60px !important;
+    .banner img {
+        height: 50vh;
     }
     
-    .banner-text-side p {
-        font-size: 16px !important ;
+    .container {
+        width: 80%;
+    }
+
+    .banner h1 {
+        font-size: 60px !important;
+    }
+}
+
+@media screen and (min-width: 1178px) and (max-width: 1455px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1455px) {
+    .container {
+        width: 60%;
     }
   }
 
-/* Mobile Screen */
-@media screen and (max-width: 767px) {
-    header {
-        position: relative;
-    }
 
-    .header-items nav {
-        visibility: hidden;
-    }
 
-    .header-right i {
-        visibility: hidden;
-    }
-
-    .header-right .hamburger {
-        display: block !important;
-    }
-  }
-  
-  
